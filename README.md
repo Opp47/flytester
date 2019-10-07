@@ -10,4 +10,5 @@ I have made 2 branches with different way to deploy this bot!
 
 ### heroku
  For this branch you just need to click Deploy button bellow!
+ 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
