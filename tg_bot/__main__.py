@@ -31,7 +31,6 @@ If you're enjoying using me, and/or would like to help me survive in the wild, h
 
 HELP_STRINGS = """
 Hey! I am *{}*.
-Y
 
 *Main* commands available:
  - /start: start the bot
