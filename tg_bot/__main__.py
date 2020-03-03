@@ -19,34 +19,24 @@ from tg_bot.modules.helper_funcs.chat_status import is_user_admin
 from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
-Hello {}, my name is {}! 
+Hi {}, My name is {}!
 
-I am is a modular python based Telegram group manager bot!
-My creator maded me to help you manage your group!
+I am a modular bot written in Python which helping you to manage your groups in Telegram.
 
-Type /help to see how to use me!
-
-If you're enjoying using me, and/or would like to help me survive in the wild, hit /donate to help fund/upgrade my VPS!
+❗ ️Commands you can use on PM
+- /help : To show full command which useful to manage your groups.
+- /donate : To support developer of this bot.
+- /settings:
+  - in PM: will send you your settings for all supported modules.
+  - in a group: will redirect you to pm, with all that chat's settings.
 """
 
 HELP_STRINGS = """
-Hey! I am *{}*.
-
-*Main* commands available:
- - /start: start the bot
- - /help: PM's you this message.
- - /help <module name>: PM's you info about that module.
- - /donate: information about how to donate!
- - /settings:
-   - in PM: will send you your settings for all supported modules.
-   - in a group: will redirect you to pm, with all that chat's settings.
-
-{}
-And the following:
+Here is all of commands you can use.
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Hey! I am glad to hear you want to donate!
-To donate you can buy my creator a coffee [here](http://t.me/ferraripie), or you can also buy coffee for developer of original source of me! Paul Larsen! [Right here](paypal.me/PaulSonOfLars), or [here](monzo.me/paulnionvestergaardlarsen)."""
+To donate you can buy my creator a coffee [here](http://t.me/herobuxx), or you can also buy coffee for developer of original source of me! Paul Larsen! [Right here](paypal.me/PaulSonOfLars), or [here](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
