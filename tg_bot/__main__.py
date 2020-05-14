@@ -36,7 +36,7 @@ Here is all of commands you can use.
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
 DONATE_STRING = """Hey! I am glad to hear you want to donate!
-To donate you can buy my creator a coffee [here](http://t.me/herobuxx), or you can also buy coffee for developer of original source of me! Paul Larsen! [Right here](paypal.me/PaulSonOfLars), or [here](monzo.me/paulnionvestergaardlarsen)."""
+To donate you can buy my creator a coffee [here](http://t.me/Zack_Opp47), or you can also buy coffee for developer of original source of me! Paul Larsen! [Right here](paypal.me/PaulSonOfLars), or [here](monzo.me/paulnionvestergaardlarsen)."""
 
 IMPORTED = {}
 MIGRATEABLE = []
